@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELDEN RING ITEMS API</title>
+    <script src="JS/ERapi.js" defer></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="page-header">
+            <div class="page-title">
+                <h3>Página Personal de Elden Ring</h3>
+            </div>
+            <div>
+                <label for="category">CATEGORIA</label>
+                <select name="category" id="category" onchange="changeCategory()">
+                </select>
+            </div>
+            <div>
+                <label for="type">TIPO</label>
+                <select name="type" id="type">
+                </select>
+            </div>
+            <button onclick="showContent()">BUSCAR</button>
+            <div class="page-name">
+                <h3>Garcia Jacobo Rodrigo Alejandro | 5IV7</h3>
+            </div>
+        </div>
+        <div class="page-contents" id="main">
+
+        </div>
+    </div>
+
+</body>
+</html>
